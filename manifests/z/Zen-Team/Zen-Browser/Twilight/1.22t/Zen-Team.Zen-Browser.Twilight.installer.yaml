@@ -1,0 +1,45 @@
+# Created by Anthelion using komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Zen-Team.Zen-Browser.Twilight
+PackageVersion: 1.22t
+InstallerType: exe
+Scope: machine
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: /S /PreventRebootRequired=true
+  SilentWithProgress: /S /PreventRebootRequired=true
+  InstallLocation: /InstallDirectoryPath="<INSTALLPATH>"
+  Custom: /DesktopShortcut=false
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+FileExtensions:
+- avif
+- htm
+- html
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+ProductCode: Zen Twilight
+ReleaseDate: 2026-06-17
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/zen-browser/desktop/releases/download/twilight-1/zen.installer.exe
+  InstallerSha256: 49A430D059C1A279E77AD809F3C76C3F9272BB942E0DF262F723294FB0882861
+  AppsAndFeaturesEntries:
+  - DisplayName: Zen Twilight (x64 en-US)
+- Architecture: arm64
+  InstallerUrl: https://github.com/zen-browser/desktop/releases/download/twilight-1/zen.installer-arm64.exe
+  InstallerSha256: 6F1076925C91D78FB2630F57ADC555CFBB69A4B00234AE9FC76F4F06466B7851
+  AppsAndFeaturesEntries:
+  - DisplayName: Zen Twilight (AArch64 en-US)
+ManifestType: installer
+ManifestVersion: 1.12.0
