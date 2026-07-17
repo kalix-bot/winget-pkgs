@@ -10,6 +10,6 @@ ReleaseDate: 2026-02-11
 Installers:
 - Architecture: x64
   InstallerUrl: https://www.softperfect.com/download/files/portmapper_setup.exe
-  InstallerSha256: 5BDA439CEA00A4CF2ECF27A71CB1B59D6F3A174C9792211935021434A796A281
+  InstallerSha256: DF48E0722A665C0B1F42B98B6E69E80F9135303D3206CA7DC639F69451DA0038
 ManifestType: installer
 ManifestVersion: 1.12.0
