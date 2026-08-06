@@ -145,10 +145,10 @@ FileExtensions:
 - yml
 - zsh
 ProductCode: '{943D6004-554E-4B49-A1D5-52F999A1B3C9}_is1'
-ReleaseDate: 2026-07-28
+ReleaseDate: 2026-08-02
 Installers:
 - Architecture: x64
-  InstallerUrl: https://qoder-ide.oss-accelerate.aliyuncs.com/release/1.19.2/QoderUserSetup-x64.exe
-  InstallerSha256: 36AA434D28A09A2EB1E4E6549BDCC07F89C0A252BE9344AD3A02835591B013F8
+  InstallerUrl: https://qoder-ide.oss-accelerate.aliyuncs.com/release/1.21.2/QoderUserSetup-x64.exe
+  InstallerSha256: 24BEBFA0DAE784D3403CF017BC9B9C819EB27774F19E3C061FB9FD3836419E79
 ManifestType: installer
 ManifestVersion: 1.12.0
