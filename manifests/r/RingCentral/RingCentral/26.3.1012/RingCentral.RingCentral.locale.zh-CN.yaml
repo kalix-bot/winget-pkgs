@@ -1,4 +1,4 @@
-# Created with YamlCreate.ps1 Dumplings Mod
+# Created with komac v2.16.0
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
 
 PackageIdentifier: RingCentral.RingCentral
@@ -22,10 +22,10 @@ Tags:
 - 协同
 - 开会
 - 研讨会
-- 视频会议
 - 聊天
+- 视频会议
 - 语音会议
-ReleaseNotesUrl: https://support.ringcentral.com/release-notes/office/app/desktop-webapp.html
+ReleaseNotesUrl: https://support.ringcentral.com/release-notes/ringex/desktop.html
 PurchaseUrl: https://www.ringcentral.com/office/plansandpricing.html
 ManifestType: locale
 ManifestVersion: 1.12.0
