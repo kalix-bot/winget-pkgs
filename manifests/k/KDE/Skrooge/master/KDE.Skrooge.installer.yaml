@@ -6,18 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: Skrooge
-ReleaseDate: 2026-10-04
+ReleaseDate: 2026-10-14
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/office/skrooge/master/windows/skrooge-master-1506-windows-gcc-x86_64.exe
-  InstallerSha256: 04D7074301557DB22133641DE1869B4A1BD3F462D9C972EA3490C16977AF5617
+  InstallerUrl: https://cdn.kde.org/ci-builds/office/skrooge/master/windows/skrooge-master-1528-windows-gcc-x86_64.exe
+  InstallerSha256: FC0999D4986633BD0095C764750265D603A6181B16259F98F9D6C4420DA41D5C
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/office/skrooge/master/windows/skrooge-master-1506-windows-gcc-x86_64.exe
-  InstallerSha256: 04D7074301557DB22133641DE1869B4A1BD3F462D9C972EA3490C16977AF5617
+  InstallerUrl: https://cdn.kde.org/ci-builds/office/skrooge/master/windows/skrooge-master-1528-windows-gcc-x86_64.exe
+  InstallerSha256: FC0999D4986633BD0095C764750265D603A6181B16259F98F9D6C4420DA41D5C
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
