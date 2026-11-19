@@ -6,18 +6,18 @@ PackageVersion: 27.03.70
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: Elisa
-ReleaseDate: 2026-11-11
+ReleaseDate: 2026-11-17
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4732-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 1F43A3B224A7EACB1A1D226559107DC17934EAA1F2898C7FF606D0EEC0C0D4C6
+  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4743-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 6F80FC2733F61DE3E13668152CD31E0440E14DC1B579E312424A776DC43A8281
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4732-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 1F43A3B224A7EACB1A1D226559107DC17934EAA1F2898C7FF606D0EEC0C0D4C6
+  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4743-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 6F80FC2733F61DE3E13668152CD31E0440E14DC1B579E312424A776DC43A8281
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
