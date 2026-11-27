@@ -1,0 +1,65 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: VideoLAN.VLC.Nightly
+PackageVersion: 4.0.0
+ReleaseDate: 2026-11-26
+Installers:
+- Architecture: x64
+  InstallerType: wix
+  Scope: machine
+  InstallerUrl: https://artifacts.videolan.org/vlc/nightly-win64-llvm/20261126-0448/vlc-4.0.0-dev-win64-865394f5.msi
+  InstallerSha256: 55C86F552898C62DF2AADBE64B263AB0C77D222B9402AB2157EDFA9DB49311AD
+  ProductCode: '{312FCF0F-18BB-4A51-959C-AA672BB5ADFC}'
+  AppsAndFeaturesEntries:
+  - UpgradeCode: '{D2E0205B-0D3A-46E2-ADF7-0504FF48CF04}'
+  InstallationMetadata:
+    DefaultInstallLocation: '%ProgramFiles%/VideoLAN/VLC'
+- Architecture: x64
+  InstallerType: zip
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: vlc-4.0.0-dev\vlc.exe
+  - RelativeFilePath: vlc-4.0.0-dev\vlc-cache-gen.exe
+  - RelativeFilePath: vlc-4.0.0-dev\vlc-preparser.exe
+  InstallerUrl: https://artifacts.videolan.org/vlc/nightly-win64-llvm/20261126-0448/vlc-4.0.0-dev-win64-865394f5.zip
+  InstallerSha256: 319BCFAB2DBAF9E358027EDC3CCA58D80E26C75AE6B8C686D0BBC1B88F733B4E
+- Architecture: arm64
+  InstallerType: wix
+  Scope: machine
+  InstallerUrl: https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/20261126-0430/vlc-4.0.0-dev-winarm64-865394f5.msi
+  InstallerSha256: 1453330C6AF9CC88808509E641761C842575E488A88FD3DC798A3B17071E9FC5
+  ProductCode: '{58A74648-6DFC-4E44-B005-5D0CE94992A5}'
+  AppsAndFeaturesEntries:
+  - UpgradeCode: '{D2E0205B-0D3A-46E2-ADF7-0504FF48CF04}'
+  InstallationMetadata:
+    DefaultInstallLocation: '%ProgramFiles%/VideoLAN/VLC'
+- Architecture: arm64
+  InstallerType: zip
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: vlc-4.0.0-dev\vlc.exe
+  - RelativeFilePath: vlc-4.0.0-dev\vlc-cache-gen.exe
+  - RelativeFilePath: vlc-4.0.0-dev\vlc-preparser.exe
+  InstallerUrl: https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/20261126-0430/vlc-4.0.0-dev-winarm64-865394f5.zip
+  InstallerSha256: A5455E4BD2BD2F5E8DB23F8EA8B8ED4AF6D3DE8C962BF12BB925C4F1C9F7C674
+- Architecture: x86
+  InstallerType: wix
+  Scope: machine
+  InstallerUrl: https://artifacts.videolan.org/vlc/nightly-win32-llvm/20261126-0431/vlc-4.0.0-dev-win32-865394f5.msi
+  InstallerSha256: 6BC87B2D8CE574E7A8E851F2F61C74FFB142C7628EF1D8E0DF676B983D1A031A
+  AppsAndFeaturesEntries:
+  - UpgradeCode: '{D2E0205B-0D3A-46E2-ADF7-0504FF48CF04}'
+  InstallationMetadata:
+    DefaultInstallLocation: '%ProgramFiles(x86)%/VideoLAN/VLC'
+- Architecture: x86
+  InstallerType: zip
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: vlc-4.0.0-dev\vlc.exe
+  - RelativeFilePath: vlc-4.0.0-dev\vlc-cache-gen.exe
+  - RelativeFilePath: vlc-4.0.0-dev\vlc-preparser.exe
+  InstallerUrl: https://artifacts.videolan.org/vlc/nightly-win32-llvm/20261126-0431/vlc-4.0.0-dev-win32-865394f5.zip
+  InstallerSha256: C0DA47745CC638BDC7C895FA8CFC38308B85328867091DC221C3C8D4D43CD432
+ManifestType: installer
+ManifestVersion: 1.28.0

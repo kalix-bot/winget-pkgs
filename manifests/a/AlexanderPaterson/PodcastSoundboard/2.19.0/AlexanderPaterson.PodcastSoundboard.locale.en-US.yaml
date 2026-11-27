@@ -1,0 +1,69 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
+
+PackageIdentifier: AlexanderPaterson.PodcastSoundboard
+PackageVersion: 2.19.0
+PackageLocale: en-US
+Publisher: Alexander Paterson
+PublisherUrl: https://alexanderpaterson.com/
+PublisherSupportUrl: https://podcastsoundboard.com/app/contact
+PrivacyUrl: https://podcastsoundboard.com/app/privacy
+Author: Alexander Paterson
+PackageName: PodcastSoundboard
+PackageUrl: https://podcastsoundboard.com/app/windows
+License: Proprietary
+LicenseUrl: https://podcastsoundboard.com/app/terms
+Copyright: Copyright © Podcast Soundboard 2026
+CopyrightUrl: https://podcastsoundboard.com/app/terms
+ShortDescription: Your custom soundboard for events and shows
+Description: |-
+  Are you a radio presenter looking to liven up your show with sound effects? A sportscaster in need of a quick and easy way to play crowd noises during a broadcast? A tabletop gamer looking for a way to bring your campaigns to life with immersive sound effects? Look no further!
+
+  Our simple and intuitive interface makes it easy to play, pause, and loop sounds on the fly. So why wait? Download Podcast Soundboard today and take your audio experience to the next level.
+
+  Browse a massive library of over 500,000 sound effects provided by Voicy to level-up your audio projects.
+
+  Supports the following file formats: .mp3, .wav, .ogg, .webm, .wav, .flac
+
+  Perfect for your creative project:
+  - Tabletop games
+  - Radio
+  - Podcasting
+  - Conference calls
+  - Theater
+  - Sportscasting
+  - Religious services
+  - Gaming
+
+  Features:
+  - MIDI device support
+  - Trigger sounds by keyboard or mouse
+  - Flexible, responsive user interface
+  - Duck controls
+  - Import/export soundboard configuration
+  - Use multiple soundboards at once
+  - Volume controls at global, soundboard, and individual sound level
+  - Loop and multi-fire functionality
+  - Set the start/end time of tracks
+ReleaseNotes: |-
+  - Fixed a duplicate topographic pattern in the default soundboard background.
+  - Security update to the libraries the app is built with. Nothing changes in how the app works.
+  - When a license check fails, the app's error log no longer includes your license key.
+  - Refreshed user interface! Everything is where it was before, but with a new modern look.
+  - You can now preview audio playback and zoom the waveform when setting a pad's start and end points.
+  - You can now download individual sound files from the Sound Files page, choosing where to save them on your computer.
+  - Pad now shows time remaining instead of total duration in the top right corner.
+  - Importing a soundboard from the cloud now also downloads each pad's image.
+  - Uploading a soundboard to the cloud now also includes each pad's image.
+  - Pad keyboard shortcuts (and the spacebar pause) no longer fire while you're typing in a text field.
+  - The soundboard picker now stays beside the previous/next buttons on narrow windows instead of wrapping onto its own line.
+  - Dialog close buttons now align with the dialog title.
+  - The dark mode toggle background is now grey in light mode so it stands out against the page.
+  - Pad option tooltips now show the fade in/out duration in seconds instead of "true".
+  - Updated Electron and other underlying libraries to pick up security fixes.
+ReleaseNotesUrl: https://podcastsoundboard.com/app/windows/changelog
+Documentations:
+- DocumentLabel: Guides
+  DocumentUrl: https://podcastsoundboard.com/app/blog
+ManifestType: defaultLocale
+ManifestVersion: 1.28.0

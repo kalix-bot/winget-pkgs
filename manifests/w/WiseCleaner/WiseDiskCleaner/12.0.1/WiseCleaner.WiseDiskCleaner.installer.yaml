@@ -1,0 +1,23 @@
+# Automatically updated by the winget bot at 2026/Nov/22
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: WiseCleaner.WiseDiskCleaner
+PackageVersion: 12.0.1
+InstallerLocale: en-US
+InstallerType: inno
+Scope: machine
+ProductCode: Wise Disk Cleaner_is1
+ReleaseDate: 2026-11-13
+AppsAndFeaturesEntries:
+- Publisher: WiseCleaner Technology Co., Ltd.
+  DisplayVersion: 12.0.1
+  ProductCode: Wise Disk Cleaner_is1
+ElevationRequirement: elevatesSelf
+InstallationMetadata:
+  DefaultInstallLocation: '%ProgramFiles%\Wise\Wise Disk Cleaner'
+Installers:
+- Architecture: x86
+  InstallerUrl: https://downloads.wisecleaner.com/soft/WDCFree_12.0.1.963.exe
+  InstallerSha256: 84A36F245B6507D6F97B781F8D4E82F8130D8B9B115BAE9F1AA002ADFBEAD3D6
+ManifestType: installer
+ManifestVersion: 1.28.0
